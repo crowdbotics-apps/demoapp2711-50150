@@ -34,9 +34,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("dj_rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "demoapp2711"
-admin.site.site_title = "demoapp2711 Admin Portal"
-admin.site.index_title = "demoapp2711 Admin"
+admin.site.site_header = "demoapp27112"
+admin.site.site_title = "demoapp27112 Admin Portal"
+admin.site.index_title = "demoapp27112 Admin"
 
 # swagger
 urlpatterns += [
